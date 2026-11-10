@@ -1,0 +1,63 @@
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native generated folders (Expo managed workflow)
+/android/
+/ios/
+
+# Android build files
+*.apk
+*.aab
+*.hprof
+.gradle/
+.kotlin/
+
+# iOS build files
+*.ipa
+*.dSYM
+Pods/
+
+# Metro bundler
+.metro-health-check*
+*.jsbundle
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editors
+.idea/
+.history/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
